@@ -14,7 +14,6 @@ namespace RepasoPrueba2._0P1.Models
 
         // Relación con el modelo Propietario
         public string PropietarioIdentificacion { get; set; }
-
         [ForeignKey("PropietarioIdentificacion")]
         public string? Propietario {  get; set; }
 
