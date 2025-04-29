@@ -11,6 +11,8 @@ namespace RepasoPrueba2._0P1.Models
         public double Cilindraje { get; set; }
         [MaxLength(50)]
         public string Modelo { get; set; }
+
+        // Relación con el modelo Propietario
         public string PropietarioIdentificacion { get; set; }
 
         [ForeignKey("PropietarioIdentificacion")]
